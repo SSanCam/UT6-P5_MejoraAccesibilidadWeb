@@ -1,0 +1,123 @@
+/* ============================== */
+/* 🔹 ESTILOS GENERALES MEJORADOS */
+/* ============================== */
+
+/* Asegurar accesibilidad en los textos */
+body {
+    background-color: #ffffff;
+    color: #222; /* Texto oscuro */
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+/* Mejorar contraste de encabezados */
+h1, h2, h3, h4, h5, h6 {
+    color: #111;
+    font-weight: bold;
+}
+
+/* ============================== */
+/* 🔹 MEJORAS DE CONTRASTE Y LEGIBILIDAD */
+/* ============================== */
+
+.scrolling-text-module__inner {
+    background-color: rgba(244, 244, 244, 0.9); /* Fondo gris claro con opacidad */
+    color: #222; /* Texto oscuro */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* ============================== */
+/* 🔹 MEJORAS EN LOS ENLACES */
+/* ============================== */
+
+a {
+    color: #0056b3; /* Azul oscuro para mejor visibilidad */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    color: #003366; /* Azul más oscuro en hover */
+}
+
+/* ============================== */
+/* 🔹 MEJORAS EN BOTONES */
+/* ============================== */
+
+button {
+    background-color: #0076ff;
+    color: white;
+    border: 2px solid #005bb5;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+button:hover, button:focus {
+    background-color: #005bb5;
+    outline: 2px solid #ffcc00; /* Borde amarillo para accesibilidad */
+}
+
+/* ============================== */
+/* 🔹 MEJORAS EN EL FOOTER */
+/* ============================== */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #ffcc00; /* Amarillo accesible */
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ============================== */
+/* 🔹 MEJORAS EN ACCESIBILIDAD */
+/* ============================== */
+
+a:focus, button:focus, input:focus, textarea:focus {
+    outline: 3px solid #ffcc00; /* Amarillo brillante */
+    outline-offset: 3px;
+}
+
+/* Ajustes en imágenes para accesibilidad */
+img {
+    max-width: 100%;
+    height: auto;
+    alt: "";
+}
+
+/* Asegurar accesibilidad en formularios */
+input, textarea, select {
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #0076ff;
+}
